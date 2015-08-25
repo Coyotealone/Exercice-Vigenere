@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="Exercice.Accueil"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Exercice"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="btn_start" Content="Lancer" HorizontalAlignment="Stretch" Margin="10,501,10,82" VerticalAlignment="Center" Click="Button_Click"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,141,0,0" TextWrapping="Wrap" Text="Exercice Chiffre de Vigenère" VerticalAlignment="Top" Width="400" Height="96" IsReadOnly="True" FontSize="24" TextAlignment="Center"/>
+        <Button x:Name="btn_history" Content="Historique" HorizontalAlignment="Left" Margin="10,561,0,0" VerticalAlignment="Top" Width="380" Click="btn_history_Click"/>
+
+    </Grid>
+</Page>
